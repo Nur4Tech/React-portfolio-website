@@ -25,6 +25,7 @@ const Main = () => {
     <main className="flex">
       <section className="flex  left-section">
         <button
+          id="projects"
           onClick={() => {
             setcurrentActive("all");
             setArr(myProjects);
